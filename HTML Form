@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HTML Form</title>
+    <meta charset="utf-8" />
+    <style>
+        .req {
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <form metod="get">
+        <table>
+            <tr>
+                <td>
+                    <label>Member name:</label>
+                    <input type="text" name="MemberName"/>
+                    <span class="req">*req</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email:</label>
+                    <input type="email" name="email"/>
+                    <span class ="req">*req</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>School:</label>
+                    <input type="text" name="school"/>
+                    <span class="req">*req</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="image" alt="Submit" width="50" src="http://www.trailangels.com/registration_submit_icon.png" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
